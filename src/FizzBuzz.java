@@ -18,5 +18,13 @@ public class FizzBuzz {
             result = Integer.toString(number);
         }
         return result;
-    };
+    }
+
+    public static void main(String[] args) {
+        FizzBuzz play = new FizzBuzz();
+        int fbLength = 100;
+        for(int i = 0; i < fbLength; i++){
+            System.out.println(play.fizzBuzz(i));
+        }
+    }
 }
